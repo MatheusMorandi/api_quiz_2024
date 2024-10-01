@@ -14,7 +14,7 @@ public class CategoriaService {
     @Autowired
     private CategoriaRepository categoriaRepo;
 
-    public Iterable<Categoria> findAll(){
+    public Iterable<CategoriaDTO> findAll(){
 
         return categoriaRepo.findAll();
 

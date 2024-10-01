@@ -19,7 +19,7 @@ public class CategoriaController {
     CategoriaService categoriaService;
  
     @GetMapping
-    public Iterable<Categoria> findAll() {
+    public Iterable<CategoriaDTO> findAll() {
 
         return categoriaService.findAll();
 

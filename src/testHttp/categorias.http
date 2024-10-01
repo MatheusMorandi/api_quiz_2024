@@ -8,5 +8,7 @@ POST {{url}}/categorias
 Content-Type: application/json
 
 {
+    
     "nome": "Arquitetura de APIs"
+
 }
